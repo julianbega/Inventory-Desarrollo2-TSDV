@@ -12,7 +12,7 @@ public class Equipment : Item
     public int rarity;
     public int maxDurability;
     public int actualDurability;
-    public MeshRenderer Renderer;
+    public GameObject InGameForm;
     void Start()
     {
         

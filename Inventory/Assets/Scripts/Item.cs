@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Item : MonoBehaviour
+
+public class Item : ScriptableObject
 {
-    public Image inventoryImage;
+    public Sprite inventoryImage;
     public string Name;
     public string description;
     public int price;
+
+
 }

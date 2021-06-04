@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public List<Item> playerItems;
+    public List<Item> Inventory;
     void Start()
     {
         
