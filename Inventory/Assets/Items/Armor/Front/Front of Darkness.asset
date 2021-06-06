@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f69de3566a31f14ebd31222bdf4bc1d, type: 3}
-  m_Name: Arms of Legs
+  m_Name: Front of Darkness
   m_EditorClassIdentifier: 
-  inventoryImage: {fileID: 21300000, guid: d0a43fc77ca01a74aa151f2cb38e019e, type: 3}
-  Name: Boots of Darkness
-  description: A pair of boots forged in a dark dimension
-  price: 350
+  inventoryImage: {fileID: 0}
+  Name: Plate of Darkness
+  description: An armor plate forged in a dark dimension
+  price: 600
   rarity: 4
   maxDurability: 40
   actualDurability: 40
   InGameForm: {fileID: 0}
-  armorType: 3
-  defenseBonus: 7
+  armorType: 0
+  defenseBonus: 9
   hpBonus: 5

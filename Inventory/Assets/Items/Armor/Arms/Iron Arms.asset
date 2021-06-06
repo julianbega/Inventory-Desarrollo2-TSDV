@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f69de3566a31f14ebd31222bdf4bc1d, type: 3}
-  m_Name: Iron Arms 1
+  m_Name: Iron Arms
   m_EditorClassIdentifier: 
   inventoryImage: {fileID: 21300000, guid: 3113da6ea8903ba47b97a7d87bf882e7, type: 3}
   Name: Iron Arms

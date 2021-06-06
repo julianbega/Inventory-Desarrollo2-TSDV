@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f69de3566a31f14ebd31222bdf4bc1d, type: 3}
-  m_Name: Helmet of Darkness
+  m_Name: Ancient Arms
   m_EditorClassIdentifier: 
-  inventoryImage: {fileID: 21300000, guid: 4e9062d8aeecba8479c2f889a5bec50e, type: 3}
-  Name: Helmet of Darkness
-  description: Helmet forged in a dark dimension
-  price: 500
-  rarity: 4
-  maxDurability: 40
-  actualDurability: 40
+  inventoryImage: {fileID: 21300000, guid: e36584e9cd9db544f90196ef2987b09d, type: 3}
+  Name: Ancient Arms
+  description: A pair of arm protectors from an old yet advanced civilization
+  price: 350
+  rarity: 2
+  maxDurability: 30
+  actualDurability: 30
   InGameForm: {fileID: 0}
-  armorType: 1
-  defenseBonus: 5
-  hpBonus: 5
+  armorType: 2
+  defenseBonus: 4
+  hpBonus: 0
