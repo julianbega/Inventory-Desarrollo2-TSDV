@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
+[CreateAssetMenu(fileName = "Item")]
 public class Item : ScriptableObject
 {
-    public Sprite inventoryImage;
+    public Sprite itemImage;
+    public Sprite backgroundImage;
     public string Name;
     public string description;
     public int price;
