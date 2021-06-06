@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f69de3566a31f14ebd31222bdf4bc1d, type: 3}
-  m_Name: Iron Helmet
+  m_Name: Iron Arms 1
   m_EditorClassIdentifier: 
-  inventoryImage: {fileID: 21300000, guid: 9da076106db4a524b93e0253dcb84543, type: 3}
-  Name: Iron Helmet
-  description: Common helmet used by common soldiers. Nothing strange
-  price: 50
+  inventoryImage: {fileID: 21300000, guid: 3113da6ea8903ba47b97a7d87bf882e7, type: 3}
+  Name: Iron Arms
+  description: Common arms used by common soldiers. Nothing strange
+  price: 75
   rarity: 1
   maxDurability: 20
   actualDurability: 20
   InGameForm: {fileID: 0}
-  armorType: 1
-  defenseBonus: 1
+  armorType: 2
+  defenseBonus: 2
   hpBonus: 0
