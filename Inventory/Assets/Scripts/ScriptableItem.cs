@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [CreateAssetMenu(fileName = "Item")]
-public class ScriptableItem : ScriptableObject
+public class ScriptableItem : MonoBehaviour
 {
     public Item thisItem;
 }

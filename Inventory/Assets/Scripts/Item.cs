@@ -11,6 +11,10 @@ public class Item : ScriptableObject
     public string Name;
     public string description;
     public int price;
-
-
+    public Type type;
+    public enum Type
+    {
+        armor,
+        weapon
+    };
 }
