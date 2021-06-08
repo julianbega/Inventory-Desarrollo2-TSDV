@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -410,6 +410,7 @@ GameObject:
   - component: {fileID: 324862654}
   - component: {fileID: 324862653}
   - component: {fileID: 324862655}
+  - component: {fileID: 324862656}
   m_Layer: 5
   m_Name: WeaponFrame
   m_TagString: Untagged
@@ -499,6 +500,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &324862656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324862651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d9c220793975e4eb558e4f6b3c4006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisItem: {fileID: 11400000, guid: 9316758c9137ac04b889a96515be01c8, type: 2}
 --- !u!1 &607546151
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,6 +525,8 @@ GameObject:
   - component: {fileID: 607546154}
   - component: {fileID: 607546153}
   - component: {fileID: 607546155}
+  - component: {fileID: 607546156}
+  - component: {fileID: 607546157}
   m_Layer: 5
   m_Name: HelmetFrame
   m_TagString: Untagged
@@ -600,6 +616,32 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &607546156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607546151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d9c220793975e4eb558e4f6b3c4006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisItem: {fileID: 11400000, guid: 9316758c9137ac04b889a96515be01c8, type: 2}
+--- !u!114 &607546157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607546151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d9c220793975e4eb558e4f6b3c4006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisItem: {fileID: 0}
 --- !u!1 &660733900
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,6 +857,8 @@ GameObject:
   - component: {fileID: 885644543}
   - component: {fileID: 885644542}
   - component: {fileID: 885644544}
+  - component: {fileID: 885644545}
+  - component: {fileID: 885644546}
   m_Layer: 5
   m_Name: ChestFrame
   m_TagString: Untagged
@@ -904,6 +948,32 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &885644545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885644540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d9c220793975e4eb558e4f6b3c4006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisItem: {fileID: 11400000, guid: 9316758c9137ac04b889a96515be01c8, type: 2}
+--- !u!114 &885644546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885644540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d9c220793975e4eb558e4f6b3c4006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisItem: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,6 +1069,8 @@ GameObject:
   - component: {fileID: 1402241893}
   - component: {fileID: 1402241892}
   - component: {fileID: 1402241894}
+  - component: {fileID: 1402241895}
+  - component: {fileID: 1402241896}
   m_Layer: 5
   m_Name: ArmsFrame
   m_TagString: Untagged
@@ -1088,6 +1160,32 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &1402241895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402241890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d9c220793975e4eb558e4f6b3c4006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisItem: {fileID: 11400000, guid: 9316758c9137ac04b889a96515be01c8, type: 2}
+--- !u!114 &1402241896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402241890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d9c220793975e4eb558e4f6b3c4006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisItem: {fileID: 0}
 --- !u!1 &1614377527
 GameObject:
   m_ObjectHideFlags: 0
@@ -1319,6 +1417,8 @@ GameObject:
   - component: {fileID: 1929366494}
   - component: {fileID: 1929366493}
   - component: {fileID: 1929366495}
+  - component: {fileID: 1929366496}
+  - component: {fileID: 1929366497}
   m_Layer: 5
   m_Name: LegsFrame
   m_TagString: Untagged
@@ -1408,3 +1508,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &1929366496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929366491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d9c220793975e4eb558e4f6b3c4006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisItem: {fileID: 11400000, guid: 9316758c9137ac04b889a96515be01c8, type: 2}
+--- !u!114 &1929366497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929366491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d9c220793975e4eb558e4f6b3c4006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisItem: {fileID: 0}

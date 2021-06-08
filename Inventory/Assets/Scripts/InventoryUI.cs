@@ -22,8 +22,7 @@ public class InventoryUI : MonoBehaviour
         {
             for (int j = 0; j < inventoryRows; j++)
             {
-                Image[] itemImages;
-                ScriptableItem itemController;
+                ItemController itemController;
                 GameObject itemGO = Instantiate(itemPrefab);
 
                 //set transform
@@ -31,13 +30,11 @@ public class InventoryUI : MonoBehaviour
 
                 //set item controller
                 Inventory.Add(itemGO);
-                itemController = itemGO.GetComponent<ScriptableItem>();
+                itemController = itemGO.GetComponent<ItemController>();
                 itemController.thisItem = player.Inventory[Inventory.Count - 1];
 
                 //set image
-                itemImages = itemGO.transform.GetComponentsInChildren<Image>();
-                itemImages[0].sprite = itemController.thisItem.backgroundImage;
-                itemImages[1].sprite = itemController.thisItem.itemImage;
+                itemController.UpdateImages();
             }
         }
     }
