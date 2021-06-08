@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 558c372d26e57ff4fac22ae0b0c4a31d, type: 3}
   m_Name: Spear
   m_EditorClassIdentifier: 
-  inventoryImage: {fileID: 0}
+  itemImage: {fileID: 0}
+  backgroundImage: {fileID: 0}
   Name: Spear
   description: A stick with a really sharp point
   price: 250
-  rarity: 2
+  type: 1
+  subType: NONE
+  rarity: 1
   maxDurability: 20
   actualDurability: 20
   InGameForm: {fileID: 0}

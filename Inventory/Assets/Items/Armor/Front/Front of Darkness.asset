@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f69de3566a31f14ebd31222bdf4bc1d, type: 3}
   m_Name: Front of Darkness
   m_EditorClassIdentifier: 
-  inventoryImage: {fileID: 0}
+  itemImage: {fileID: 21300000, guid: b44166d3593681547b26439b7b06a3d6, type: 3}
+  backgroundImage: {fileID: 0}
   Name: Plate of Darkness
   description: An armor plate forged in a dark dimension
   price: 600
-  rarity: 4
+  type: 0
+  subType: FRONT
+  rarity: 3
   maxDurability: 40
   actualDurability: 40
   InGameForm: {fileID: 0}
-  armorType: 0
   defenseBonus: 9
   hpBonus: 5

@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f69de3566a31f14ebd31222bdf4bc1d, type: 3}
   m_Name: Ancient Legs
   m_EditorClassIdentifier: 
-  inventoryImage: {fileID: 21300000, guid: 2984ca4c93c8cf841aced0745540068f, type: 3}
+  itemImage: {fileID: 21300000, guid: 3f66fab7ed4068441a6833577aa0336f, type: 3}
+  backgroundImage: {fileID: 0}
   Name: Ancient Boots
   description: A pair of leg protectors from an old yet advanced civilization
   price: 350
+  type: 0
+  subType: LEG
   rarity: 2
   maxDurability: 30
   actualDurability: 30
   InGameForm: {fileID: 0}
-  armorType: 3
   defenseBonus: 4
   hpBonus: 0

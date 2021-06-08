@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f69de3566a31f14ebd31222bdf4bc1d, type: 3}
   m_Name: Arms of Darkness
   m_EditorClassIdentifier: 
-  inventoryImage: {fileID: 21300000, guid: e035239fcf2d0074091ef86a2cb092ee, type: 3}
+  itemImage: {fileID: 21300000, guid: 86b4bce1595af2a4d8649de5d14ae351, type: 3}
+  backgroundImage: {fileID: 0}
   Name: Gauntlets of Darkness
   description: A pair of gauntlets forged in a dark dimension
   price: 550
-  rarity: 4
+  type: 0
+  subType: ARM
+  rarity: 3
   maxDurability: 40
   actualDurability: 40
   InGameForm: {fileID: 0}
-  armorType: 2
   defenseBonus: 7
   hpBonus: 5

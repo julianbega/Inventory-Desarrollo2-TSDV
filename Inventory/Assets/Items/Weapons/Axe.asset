@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 558c372d26e57ff4fac22ae0b0c4a31d, type: 3}
   m_Name: Axe
   m_EditorClassIdentifier: 
-  inventoryImage: {fileID: 0}
+  itemImage: {fileID: 0}
+  backgroundImage: {fileID: 0}
   Name: Axe
   description: Usually used to cut trees down
   price: 100
-  rarity: 1
+  type: 1
+  subType: NONE
   maxDurability: 50
   actualDurability: 50
   InGameForm: {fileID: 0}

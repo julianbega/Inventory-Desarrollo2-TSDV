@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 558c372d26e57ff4fac22ae0b0c4a31d, type: 3}
   m_Name: Claymore
   m_EditorClassIdentifier: 
-  inventoryImage: {fileID: 0}
+  itemImage: {fileID: 0}
+  backgroundImage: {fileID: 0}
   Name: Claymore
   description: A really big sword
   price: 200
-  rarity: 3
+  type: 1
+  subType: NONE
+  rarity: 2
   maxDurability: 40
   actualDurability: 40
   InGameForm: {fileID: 0}

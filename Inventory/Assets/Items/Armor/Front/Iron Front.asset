@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f69de3566a31f14ebd31222bdf4bc1d, type: 3}
   m_Name: Iron Front
   m_EditorClassIdentifier: 
-  inventoryImage: {fileID: 0}
+  itemImage: {fileID: 21300000, guid: 34248af01edb4e5418f0a2177617a4d3, type: 3}
+  backgroundImage: {fileID: 0}
   Name: Iron Plate
   description: Common plate used by common soldiers. Nothing strange
   price: 100
+  type: 0
+  subType: FRONT
   rarity: 1
   maxDurability: 20
   actualDurability: 20
   InGameForm: {fileID: 0}
-  armorType: 0
   defenseBonus: 4
   hpBonus: 0

@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f69de3566a31f14ebd31222bdf4bc1d, type: 3}
   m_Name: Iron Arms
   m_EditorClassIdentifier: 
-  inventoryImage: {fileID: 21300000, guid: 3113da6ea8903ba47b97a7d87bf882e7, type: 3}
+  itemImage: {fileID: 21300000, guid: f2d2c7af558f7db4385a0396499a5364, type: 3}
+  backgroundImage: {fileID: 0}
   Name: Iron Arms
   description: Common arms used by common soldiers. Nothing strange
   price: 75
+  type: 0
+  subType: ARM
   rarity: 1
   maxDurability: 20
   actualDurability: 20
   InGameForm: {fileID: 0}
-  armorType: 2
   defenseBonus: 2
   hpBonus: 0

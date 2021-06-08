@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f69de3566a31f14ebd31222bdf4bc1d, type: 3}
   m_Name: Ancient Helmet
   m_EditorClassIdentifier: 
-  inventoryImage: {fileID: 21300000, guid: f23a016e14285234c825833417ae3caf, type: 3}
+  itemImage: {fileID: 21300000, guid: a881d0b67d27108489ccc55c2856d013, type: 3}
+  backgroundImage: {fileID: 0}
   Name: Ancient Helmet
   description: A helmet from an old yet advanced civilization
   price: 300
+  type: 0
+  subType: HELMET
   rarity: 2
   maxDurability: 30
   actualDurability: 30
   InGameForm: {fileID: 0}
-  armorType: 1
   defenseBonus: 3
   hpBonus: 0

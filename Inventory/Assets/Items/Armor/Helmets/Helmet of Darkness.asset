@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f69de3566a31f14ebd31222bdf4bc1d, type: 3}
   m_Name: Helmet of Darkness
   m_EditorClassIdentifier: 
-  inventoryImage: {fileID: 21300000, guid: 4e9062d8aeecba8479c2f889a5bec50e, type: 3}
+  itemImage: {fileID: 21300000, guid: 29c27ae6285f8e9469ea1ca81739dbf0, type: 3}
+  backgroundImage: {fileID: 0}
   Name: Helmet of Darkness
   description: Helmet forged in a dark dimension
   price: 500
-  rarity: 4
+  type: 0
+  subType: HELMET
+  rarity: 3
   maxDurability: 40
   actualDurability: 40
   InGameForm: {fileID: 0}
-  armorType: 1
   defenseBonus: 5
   hpBonus: 5

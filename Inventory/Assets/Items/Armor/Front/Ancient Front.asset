@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f69de3566a31f14ebd31222bdf4bc1d, type: 3}
   m_Name: Ancient Front
   m_EditorClassIdentifier: 
-  inventoryImage: {fileID: 0}
+  itemImage: {fileID: 21300000, guid: 045cc19bc80aef44999274215c4812f7, type: 3}
+  backgroundImage: {fileID: 0}
   Name: Ancient Shirt
   description: A shirt from an old yet advanced civilization
   price: 400
+  type: 0
+  subType: FRONT
   rarity: 2
   maxDurability: 30
   actualDurability: 30
   InGameForm: {fileID: 0}
-  armorType: 0
   defenseBonus: 6
   hpBonus: 0
