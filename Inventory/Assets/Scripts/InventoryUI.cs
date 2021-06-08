@@ -10,6 +10,7 @@ public class InventoryUI : MonoBehaviour
     public int inventoryRows;
     public GameObject itemPrefab;
     public List<GameObject> Inventory;
+    [SerializeField] List<Sprite> ItemBackgrounds;
     [SerializeField] Vector2 inventoryFrameSize;
     [SerializeField] Vector2 itemPosMod;
 
@@ -22,8 +23,8 @@ public class InventoryUI : MonoBehaviour
         {
             for (int j = 0; j < inventoryRows; j++)
             {
-                ItemController itemController;
                 GameObject itemGO = Instantiate(itemPrefab);
+                ItemController itemController;
 
                 //set transform
                 SetItemPosition(itemGO.transform, columnPosition * i, rowPosition * (j - 1));
@@ -32,6 +33,27 @@ public class InventoryUI : MonoBehaviour
                 Inventory.Add(itemGO);
                 itemController = itemGO.GetComponent<ItemController>();
                 itemController.thisItem = player.Inventory[Inventory.Count - 1];
+                switch (itemController.thisItem.rarity)
+                {
+                    case Item.Rarity.common:
+                        itemController.thisItem.backgroundImage = ItemBackgrounds[1];
+                        break;
+                    case Item.Rarity.rare:
+                        itemController.thisItem.backgroundImage = ItemBackgrounds[2];
+                        break;
+                    case Item.Rarity.veryRare:
+                        itemController.thisItem.backgroundImage = ItemBackgrounds[3];
+                        break;
+                    case Item.Rarity.epic:
+                        itemController.thisItem.backgroundImage = ItemBackgrounds[4];
+                        break;
+                    case Item.Rarity.legendary:
+                        itemController.thisItem.backgroundImage = ItemBackgrounds[5];
+                        break;
+                    default:
+                        itemController.thisItem.backgroundImage = ItemBackgrounds[0];
+                        break;
+                }
 
                 //set image
                 itemController.UpdateImages();

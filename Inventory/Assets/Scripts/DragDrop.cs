@@ -67,8 +67,8 @@ public class DragDrop : MonoBehaviour
 
     public bool IsSameType(Item target)
     {
+        if (target.type == Item.Type.empty) { return true; }
         if (itemController.thisItem.type != target.type) { return false; }
-
         if (itemController.thisItem.type != Item.Type.armor) { return true; }
 
         return itemController.thisItem.subType == target.subType;

@@ -6,11 +6,8 @@ using UnityEngine.UI;
 [CreateAssetMenu(fileName = "Item")]
 public class Item : ScriptableObject
 {
-    public enum Type
-    {
-        armor,
-        weapon
-    };
+    public enum Type { armor, weapon, empty };
+    public enum Rarity { common, rare, veryRare, epic, legendary, empty}
 
     public Sprite itemImage;
     public Sprite backgroundImage;
@@ -19,4 +16,5 @@ public class Item : ScriptableObject
     public int price;
     public Type type;
     public string subType;
+    public Rarity rarity;
 }

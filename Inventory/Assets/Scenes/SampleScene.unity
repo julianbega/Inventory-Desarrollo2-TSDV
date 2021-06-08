@@ -183,6 +183,13 @@ MonoBehaviour:
   itemPrefab: {fileID: 3638113438440462384, guid: 0cbf899f2443cb746bd49c2d6bc7a280,
     type: 3}
   Inventory: []
+  ItemBackgrounds:
+  - {fileID: 21300000, guid: d499dd113f225c44da6ff046746fd877, type: 3}
+  - {fileID: 21300000, guid: b1941df5cb6891743ba1961256f89973, type: 3}
+  - {fileID: 21300000, guid: fdb3ab0f38aa8594493e75cde4af0a81, type: 3}
+  - {fileID: 21300000, guid: 7add5691889a7db459fb34f5631a7512, type: 3}
+  - {fileID: 21300000, guid: 8aed7e321b261d246ba680c9d9698135, type: 3}
+  - {fileID: 21300000, guid: 16d6f24fe29ecc849b50186ad6c13705, type: 3}
   inventoryFrameSize: {x: 500, y: 420}
   itemPosMod: {x: 0.75, y: 0.75}
 --- !u!1 &163348726
@@ -619,6 +626,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Legs Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 4940835645111608935, guid: d8eb222aa7fb5c7468f72aac19fe0c28,
+        type: 3}
+      propertyPath: thisItem
+      value: 
+      objectReference: {fileID: 11400000, guid: eaf5d7369672dac4bb6f1d59befbdcec,
+        type: 2}
     - target: {fileID: 6048222712045218002, guid: d8eb222aa7fb5c7468f72aac19fe0c28,
         type: 3}
       propertyPath: m_Pivot.x
@@ -833,6 +846,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arms Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 4940835645111608935, guid: d8eb222aa7fb5c7468f72aac19fe0c28,
+        type: 3}
+      propertyPath: thisItem
+      value: 
+      objectReference: {fileID: 11400000, guid: eaf5d7369672dac4bb6f1d59befbdcec,
+        type: 2}
     - target: {fileID: 6048222712045218002, guid: d8eb222aa7fb5c7468f72aac19fe0c28,
         type: 3}
       propertyPath: m_Pivot.x
@@ -952,6 +971,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Helmet Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 4940835645111608935, guid: d8eb222aa7fb5c7468f72aac19fe0c28,
+        type: 3}
+      propertyPath: thisItem
+      value: 
+      objectReference: {fileID: 11400000, guid: eaf5d7369672dac4bb6f1d59befbdcec,
+        type: 2}
     - target: {fileID: 6048222712045218002, guid: d8eb222aa7fb5c7468f72aac19fe0c28,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1336,6 +1361,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chest Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 4940835645111608935, guid: d8eb222aa7fb5c7468f72aac19fe0c28,
+        type: 3}
+      propertyPath: thisItem
+      value: 
+      objectReference: {fileID: 11400000, guid: eaf5d7369672dac4bb6f1d59befbdcec,
+        type: 2}
     - target: {fileID: 6048222712045218002, guid: d8eb222aa7fb5c7468f72aac19fe0c28,
         type: 3}
       propertyPath: m_Pivot.x

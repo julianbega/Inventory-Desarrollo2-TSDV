@@ -19,3 +19,4 @@ MonoBehaviour:
   price: 0
   type: 1
   subType: NONE
+  rarity: 5
