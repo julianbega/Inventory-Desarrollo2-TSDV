@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     Player myPlayer;
-    void Start()
+    void Awake()
     {
         myPlayer = FindObjectOfType<Player>();
         myPlayer = LoadInfo();
