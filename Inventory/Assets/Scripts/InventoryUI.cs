@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,6 +14,7 @@ public class InventoryUI : MonoBehaviour
     [SerializeField] List<Sprite> ItemBackgrounds;
     [SerializeField] Vector2 inventoryFrameSize;
     [SerializeField] Vector2 itemPosMod;
+    [SerializeField] TextMeshProUGUI dataVisualizer;
 
     private void Awake()
     {
@@ -33,6 +35,7 @@ public class InventoryUI : MonoBehaviour
 
                 //set transform
                 SetItemPosition(itemGO.transform, columnPosition * i, rowPosition * (j - 1));
+                itemGO.GetComponent<ItemUI>().dataVisualizer = dataVisualizer;
             }
         }
     }
