@@ -15,4 +15,5 @@ public class Item : ScriptableObject
     public Type type;
     public string subType;
     public Rarity rarity;
+    public int level;
 }

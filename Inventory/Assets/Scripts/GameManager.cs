@@ -41,6 +41,7 @@ public class GameManager : MonoBehaviour
         if (Input.GetKey(KeyCode.L))
         {
             myPlayer = LoadInfo();
+            myPlayer.inventoryChanged?.Invoke();
         }
     }
 }

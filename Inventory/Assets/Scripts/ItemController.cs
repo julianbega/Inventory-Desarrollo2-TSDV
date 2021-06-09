@@ -5,6 +5,10 @@ public class ItemController : MonoBehaviour
 {
     public Item thisItem;
     public string itemName;
+    private void Start()
+    {
+        thisItem.level = (int)thisItem.rarity * 10;
+    }
 
     public void UpdateImages()
     {
