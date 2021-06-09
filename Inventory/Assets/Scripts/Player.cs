@@ -10,7 +10,8 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        FillInventoryWithRandoms();
+        inventoryChanged?.Invoke();
+        //  FillInventoryWithRandoms();
     }
 
     // Update is called once per frame
