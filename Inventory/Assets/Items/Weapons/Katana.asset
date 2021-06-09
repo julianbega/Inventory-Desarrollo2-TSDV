@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 558c372d26e57ff4fac22ae0b0c4a31d, type: 3}
   m_Name: Katana
   m_EditorClassIdentifier: 
-  itemImage: {fileID: 21300000, guid: 38b32a871b706b849b06feb635656b23, type: 3}
+  itemImage: {fileID: 21300000, guid: 9e446085261893a46b1acf14e79ec28f, type: 3}
   backgroundImage: {fileID: 21300000, guid: fdb3ab0f38aa8594493e75cde4af0a81, type: 3}
   Name: Katana
   description: Ancient japanese sword

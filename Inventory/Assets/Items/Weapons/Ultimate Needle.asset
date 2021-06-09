@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 558c372d26e57ff4fac22ae0b0c4a31d, type: 3}
   m_Name: Ultimate Needle
   m_EditorClassIdentifier: 
-  itemImage: {fileID: 0}
+  itemImage: {fileID: 21300000, guid: 76a9fecf13d7e5d47a6bc68d8d3e5f18, type: 3}
   backgroundImage: {fileID: 0}
   Name: Ultimate Needle
-  description: This ancient needle is imbued with the essence of death itself. It
+  description: This ancient needle is threaded with the string of death itself. It
     breaks on use
   price: 1000
   type: 1
   subType: NONE
+  rarity: 4
   maxDurability: 1
   actualDurability: 1
   InGameForm: {fileID: 0}

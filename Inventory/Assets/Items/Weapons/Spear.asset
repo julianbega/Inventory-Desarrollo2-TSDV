@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 558c372d26e57ff4fac22ae0b0c4a31d, type: 3}
   m_Name: Spear
   m_EditorClassIdentifier: 
-  itemImage: {fileID: 0}
+  itemImage: {fileID: 21300000, guid: 619319039a40d074bbcdb54571dd90ee, type: 3}
   backgroundImage: {fileID: 0}
   Name: Spear
   description: A stick with a really sharp point

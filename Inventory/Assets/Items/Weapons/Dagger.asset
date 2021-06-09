@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 558c372d26e57ff4fac22ae0b0c4a31d, type: 3}
   m_Name: Dagger
   m_EditorClassIdentifier: 
-  itemImage: {fileID: 0}
+  itemImage: {fileID: 21300000, guid: 240ef332d885f2344a1f8d22efb53898, type: 3}
   backgroundImage: {fileID: 0}
   Name: Dagger
   description: Combat Knife, can be throwed up a short distance.
   price: 5
   type: 1
   subType: NONE
+  rarity: 0
   maxDurability: 1
   actualDurability: 1
   InGameForm: {fileID: 0}
