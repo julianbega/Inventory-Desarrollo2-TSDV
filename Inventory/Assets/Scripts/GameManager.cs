@@ -8,8 +8,13 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         myPlayer = FindObjectOfType<Player>();
+        myPlayer = LoadInfo();
     }
 
+    private void OnDisable()
+    {
+        SaveInfo(myPlayer);
+    }
     public static void SaveInfo(Player myPlayer)
     {
         string json = JsonUtility.ToJson(myPlayer);
