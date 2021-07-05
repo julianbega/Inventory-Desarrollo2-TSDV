@@ -5,7 +5,7 @@ using UnityEngine.Events;
 public class Player : MonoBehaviour
 {
     public List<Item> Inventory;
-    [SerializeField] ItemManager ItemManager;
+    public ItemManager itemManager;
     public UnityEvent inventoryChanged;
 
     void Start()
@@ -20,14 +20,14 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             FillInventoryWithRandoms();
-        }   
+        }
     }
 
     void FillInventoryWithRandoms()
     {
         for (int i = 0; i < Inventory.Count; i++)
         {
-            Inventory[i] = ItemManager.GetRandomItem();
+            Inventory[i] = itemManager.GetRandomItem();
         }
         inventoryChanged?.Invoke();
     }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     Player myPlayer;
+    [SerializeField] ItemManager itemManager;
     void Awake()
     {
         myPlayer = FindObjectOfType<Player>();
@@ -15,17 +16,18 @@ public class GameManager : MonoBehaviour
     {
         SaveInfo(myPlayer);
     }
-    public static void SaveInfo(Player myPlayer)
+    void SaveInfo(Player myPlayer)
     {
         string json = JsonUtility.ToJson(myPlayer);
         PlayerPrefs.SetString("PlayerInfo",json);
     }
 
-    public static Player LoadInfo()
+    Player LoadInfo()
     {        
         Player myPlayer = FindObjectOfType<Player>();
         string jsonData = PlayerPrefs.GetString("PlayerInfo");
         JsonUtility.FromJsonOverwrite(jsonData, myPlayer);
+        if (myPlayer.itemManager == null) { myPlayer.itemManager = itemManager; }
         return myPlayer;
     }
 
